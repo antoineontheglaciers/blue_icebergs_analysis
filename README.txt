@@ -1,0 +1,4 @@
+The order 'thermal_pictures_and_process' contains the thermal and visible pictures showed in the article. The two python codes process the images, investigate sensitivity of processing parameters and allow to draw blue color index and temperature profiles. 
+
+
+The code 'a2023_06_10.ipynb' performs the analysis of the satellite images (crop iceberg, compute mean of the different bands). Since satellite images used in the analysis have a size of 14GB, the data could not be uploaded but are available on request. The results obtained are stored under mean_reflectance_blue.npy,  mean_reflectance_white.npy and  mean_reflectance_pond.npy. 'blue_evolution.py' computes the blue color index evolution over several days. Results are stored in the 'results' order. In the evolXmeanval.npy, the mean reflectance values for the iceberg tracked for each band (1 to 12). Each row displays the reflectance of images taken later (between 0-12 days, different among the various icebergs).
